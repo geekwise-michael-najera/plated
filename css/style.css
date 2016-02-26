@@ -12,17 +12,25 @@ header{ margin: 0;
         padding: 0;
         width:auto;
         height: 155px;
-        background-color: blue;} 
-    
+        background-color: ;
+        border-bottom: light-dotted;
+      } 
+
+h3{ margin:0;
+    height: auto;
+    display: inline-block;
+    }
 
 button{ border: none;
         float: left;
         font-size: 1.1 em;
         background-color: white;
+    
     }
     
-h2{ margin-bottom: 10px 
-    text-align: center; 
+h2{ text-align: center; 
+    width: 45000px;
+    color:red;
     }
 
 #topleft{ position: relative;
@@ -33,26 +41,29 @@ h2{ margin-bottom: 10px
           text-align: center;
           float: right;
           color: black;
-          background-color: red;
-          
-    
-              }
+    }
+
 #signin{margin: 0;
         padding: 0;
         width: 15%;
         height: 100%;
         float: right;
-        background-color: gold; 
+        background-color: ; 
         text-align: center;
-        position: relative -90px;
-        }
+        position: relative;
+        top: -90px;
+        line-height: 150px;
+        color: forestgreen;}
 
 #log{margin: 0;
      height: 100%;
      width: 15%;
-     background-color: orange;
+     background-color: ;
      float: right;
-     text-align: center;}    
-    
-    
+     text-align: center;   
+     position: relative ;
+     top: -90px;
+     line-height: 150px;
+     color: forestgreen;
+    }
     
