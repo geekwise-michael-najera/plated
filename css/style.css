@@ -22,7 +22,10 @@ button{ margin: 6px;
         background-color: white;
     }
     
-    #topleft{ }
+    #topleft{ float: left;
+              }
+    
+
     
     
     
