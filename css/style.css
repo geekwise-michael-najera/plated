@@ -11,22 +11,48 @@ body{ margin: 0;
 header{ margin: 0;
         padding: 0;
         width:auto;
-        height: auto;
+        height: 155px;
+        background-color: blue;} 
     
 
-button{ margin: 6px;
-        border: none;
-        width: 3px;
+button{ border: none;
         float: left;
-        font-size: 1.5em;
+        font-size: 1.1 em;
         background-color: white;
     }
     
-    #topleft{ float: left;
-              }
-    
+h2{ margin-bottom: 10px 
+    text-align: center; 
+    }
 
+#topleft{ position: relative;
+          font-size: 1.2em;
+          height: 100%;
+          width: 15%;
+          line-height: 4em;
+          text-align: center;
+          float: right;
+          color: black;
+          background-color: red;
+          
     
+              }
+#signin{margin: 0;
+        padding: 0;
+        width: 15%;
+        height: 100%;
+        float: right;
+        background-color: gold; 
+        text-align: center;
+        position: relative -90px;
+        }
+
+#log{margin: 0;
+     height: 100%;
+     width: 15%;
+     background-color: orange;
+     float: right;
+     text-align: center;}    
     
     
     
